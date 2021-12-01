@@ -1,0 +1,118 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+main{
+  width: 80%;
+  margin: auto;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+body{
+  background-color:cornsilk;
+}
+
+header{
+  background-color: rgb(246, 193, 16);
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  align-items: center;
+  max-height: 200px
+}
+
+.logo > a > img{
+  margin: auto;
+  max-height: 120px;
+  vertical-align: middle;
+}
+
+.top-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  vertical-align: middle;
+  vertical-align: middle;
+  align-content: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.top-menu > a{
+  background-color: crimson;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 8px;
+  font-weight: bolder;
+  color: #FFF;
+  text-shadow: 1px 1px brown;
+  border-radius: 10px;
+
+}
+.top-menu > a:hover{
+  background-color: #000;
+}
+
+article{
+  padding: 20px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 70%;
+  background-color: #FFF;
+  
+}
+
+.contenido{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #000;
+  height: 400px;
+}
+
+aside{
+  flex-basis: 30%;
+  padding: 20px;
+  flex-grow: 1;
+  flex-basis: 30%;
+  flex-shrink: 1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: darkgray;
+}
+
+footer{
+  background-color: rgb(246, 193, 16);
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+footer>.menu2, .menu3{
+  display: flex;
+  background-color: wheat;
+  
+  flex-wrap: wrap;
+  
+}
+
+footer >.menu2 > a, footer > .menu3 >a{
+  
+}
