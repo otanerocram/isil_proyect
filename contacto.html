@@ -1,43 +1,73 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Proyecto ISIL</title>
-  <link rel="stylesheet" href="css/estilo.css">
-</head>
-<body>
-  <main>
-    <header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto ISIL</title>
+    <link rel="stylesheet" href="css/estilo.css" />
+  </head>
+  <body>
+    <main>
+      <header>
         <section class="logo">
-          <a href="index.html" target="_self"><img src="images/logo.png" alt="Logo Image"></a>
+          <a href="index.html" target="_self"
+            ><img src="images/logo.png" alt="Logo Image"
+          /></a>
         </section>
         <section class="top-menu">
-            <a href="index.html" target="_self">Inicio</a>
-            <a href="nosotros.html" target="_self">Nosotros</a>
-            <a href="carta.html" target="_self">Nuestra Carta</a>
-            <a href="reserva.html" target="_self">Reserva</a>
-            <a href="blog.html" target="_self">Blog</a>
-            <a href="contacto.html" target="_self">Contacto</a>
+          <a href="index.html" target="_self">Inicio</a>
+          <a href="nosotros.html" target="_self">Nosotros</a>
+          <a href="carta.html" target="_self">Nuestra Carta</a>
+          <!-- <a href="reserva.html" target="_self">Reserva</a>
+            <a href="blog.html" target="_self">Blog</a> -->
+          <a href="contacto.html" target="_self">Contacto</a>
         </section>
-    </header>
-    <article class="principal">
+      </header>
+      <article class="principal">
         <section class="contenido">
-            CONTACTO
+          <div class="container">
+            <form action="action_page.php">
+              <label for="fname">Nombre</label>
+              <input
+                type="text"
+                id="fname"
+                class="lname"
+                name="firstname"
+                placeholder="Your name.."
+              />
+              <label for="lname">Correo</label>
+              <input
+                type="text"
+                id="lname"
+                class="lname"
+                name="lastname"
+                placeholder="Your last name.."
+              />
+
+              <label for="subject">Mensaje</label>
+              <textarea
+                class="mensaje"
+                id="subject"
+                name="subject"
+                placeholder="Escriba su mensaje.."
+                style="height: 200px"
+              ></textarea>
+
+              <input class="option-button" type="submit" value="Enviar" />
+            </form>
+          </div>
         </section>
-    </article>
-    <aside>
-        <section class="publicidad">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum eos illo sunt dolore. Modi praesentium necessitatibus exercitationem recusandae mollitia amet? Obcaecati commodi sunt dicta nostrum odit asperiores illum explicabo! Totam!</section>
-    </aside>
-    <footer>
-        <div class="menu2">
-            Menu Izquierda
-        </div>
-        <div class="menu3">
-            Menu Derecha
-        </div>
-    </footer>
-</main>
-</body>
+      </article>
+      <aside>
+        <section class="publicidad">
+          <img src="" alt="" />
+        </section>
+      </aside>
+      <footer>
+        <div class="menu2"></div>
+        <div class="menu3"></div>
+      </footer>
+    </main>
+  </body>
 </html>

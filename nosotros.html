@@ -1,43 +1,99 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Proyecto ISIL</title>
-  <link rel="stylesheet" href="css/estilo.css">
-</head>
-<body>
-  <main>
-    <header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto ISIL</title>
+    <link rel="stylesheet" href="css/estilo.css" />
+  </head>
+  <body>
+    <main>
+      <header>
         <section class="logo">
-          <a href="index.html" target="_self"><img src="images/logo.png" alt="Logo Image"></a>
+          <a href="index.html" target="_self"
+            ><img src="images/logo.png" alt="Logo Image"
+          /></a>
         </section>
         <section class="top-menu">
-            <a href="index.html" target="_self">Inicio</a>
-            <a href="nosotros.html" target="_self">Nosotros</a>
-            <a href="carta.html" target="_self">Nuestra Carta</a>
-            <a href="reserva.html" target="_self">Reserva</a>
-            <a href="blog.html" target="_self">Blog</a>
-            <a href="contacto.html" target="_self">Contacto</a>
+          <a href="index.html" target="_self">Inicio</a>
+          <a href="nosotros.html" target="_self">Nosotros</a>
+          <a href="carta.html" target="_self">Nuestra Carta</a>
+          <!-- <a href="reserva.html" target="_self">Reserva</a>
+          <a href="blog.html" target="_self">Blog</a> -->
+          <a href="contacto.html" target="_self">Contacto</a>
         </section>
-    </header>
-    <article class="principal">
+      </header>
+      <article class="principal">
         <section class="contenido">
-            NOSOTROS
+          <div class="fila">
+            <div class="columna">
+              <img src="/images/nosotros.png" />
+            </div>
+            <div class="columna padding-30">
+              <h1>Nosotros</h1>
+              <p class="nosotros padding-30">
+                Forjamos hitos trascendentales en nuestra historia, pero la
+                principal es el reconocimiento que tenemos de nuestros clientes.
+                Hemos sido parte de su vida en todos estos años y lo
+                agradecemos, no solo su presencia, sino también sus comentarios,
+                sugerencias y principalmente sus constantes visitas, llamadas y
+                pedidos.v>
+              </p>
+            </div>
+          </div>
         </section>
-    </article>
-    <aside>
-        <section class="publicidad">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum eos illo sunt dolore. Modi praesentium necessitatibus exercitationem recusandae mollitia amet? Obcaecati commodi sunt dicta nostrum odit asperiores illum explicabo! Totam!</section>
-    </aside>
-    <footer>
-        <div class="menu2">
-            Menu Izquierda
+        <section></section>
+      </article>
+      <article class="contact-info">
+        <div>
+          <iframe
+            width="100%"
+            height="200"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=Les%20Rambles,%201%20Barcelona,%20Spain+(Mi%20nombre%20de%20egocios)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            ><a href="https://www.gps.ie/car-satnav-gps/"
+              >GPS car tracker</a
+            ></iframe
+          >
         </div>
-        <div class="menu3">
-            Menu Derecha
+        <div class="address-container">
+          <address>
+            You can contact author at
+            <a href="http://www.somedomain.com/contact">www.somedomain.com</a
+            >.<br />
+            If you see any bugs, please
+            <a href="mailto:webmaster@somedomain.com">contact webmaster</a
+            >.<br />
+            You may also want to visit us:<br />
+            Mozilla Foundation<br />
+            1981 Landings Drive<br />
+            Building K<br />
+            Mountain View, CA 94043-0801<br />
+            USA
+          </address>
         </div>
-    </footer>
-</main>
-</body>
+        <div>
+          <form action="/enviar_form.php">
+            <label for="lname">Boletín de Descuentos:</label><br />
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              value=""
+              placeholder="Ingrese su email"
+            />
+            <input class="option-button" type="submit" value="Suscribirse" />
+          </form>
+        </div>
+      </article>
+      <footer>
+        <div class="menu2"></div>
+        <div class="menu3"></div>
+      </footer>
+    </main>
+  </body>
 </html>
